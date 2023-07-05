@@ -5701,6 +5701,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AxisDiagram
       objectReference: {fileID: 0}
+    - target: {fileID: 1410900653327939737, guid: c53f900359868fe418fb75ca67ea361e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5620835271001869827, guid: c53f900359868fe418fb75ca67ea361e, type: 3}
       propertyPath: m_RootOrder
       value: 5

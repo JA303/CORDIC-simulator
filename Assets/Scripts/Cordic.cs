@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class Cordic : MonoBehaviour
@@ -15,7 +16,7 @@ public class Cordic : MonoBehaviour
     
 
     [ContextMenu("UpdateBlock")]
-    private void UpdateBlock()
+    public void UpdateBlock()
     {
         int itrationCount = cordicInputs.itrationCount;
         
@@ -82,7 +83,7 @@ public class Cordic : MonoBehaviour
             List<CordicBlock> cordicBlocksList = new List<CordicBlock>(itrationCount + 1);
             var spawnPosition = Vector3.zero;
 
-            for (uint i = 0; i <= itrationCount; i++)
+            for (uint i = 1; i <= itrationCount; i++)
             {
                 var clone = Instantiate<CordicBlock>(cordicBlockPrefab, spawnPosition, Quaternion.identity);
                 clone.Initialize(i, i == itrationCount);
@@ -99,8 +100,17 @@ public class Cordic : MonoBehaviour
 
             cordicBlocks = cordicBlocksList.ToArray();
         }
+    }
 
-        
+    public double3 GetOutput()
+    {
+        var lastBlock = cordicBlocks[cordicBlocks.Length - 1];
+        double3 result = new double3();
+        result.x = lastBlock.OutputLines.lineX.Value;
+        result.y = lastBlock.OutputLines.lineY.Value;
+        result.z = lastBlock.OutputLines.lineZ.Value;
+
+        return result;
     }
 
 }

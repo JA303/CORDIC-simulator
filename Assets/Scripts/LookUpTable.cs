@@ -43,8 +43,9 @@ public class LookUpTable : MonoBehaviour
             text.text = "ei = tanh(2^-i)";
     }
 
-    readonly double[] invertTanh = new double[17] 
-    { 
+    readonly double[] invertTanh = new double[18] 
+    {
+        double.MaxValue,
         0.54930614433405484569762261846126285232374527891138, // 0 InvertTanh(0.5)
         0.25541281188299534160275704815183096743905539822288, // 1 InvertTanh(0.25)
         0.12565721414045303884256886520093583982894819303182, // 2

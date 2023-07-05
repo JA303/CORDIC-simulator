@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,8 +72,8 @@ TextureImporter:
     maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
-    compressionQuality: 100
+    textureCompression: 1
+    compressionQuality: 50
     crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
@@ -108,7 +108,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: modes_sprt_0
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 954
+        width: 755
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ccca0c1a20c7a4aa9f2812045b2e48
+      internalID: 633183693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modes_sprt_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 63
+        width: 120
+        height: 891
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d00aa21a672acc43bed1ab27ff18970
+      internalID: 1974840442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modes_sprt_2
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 668
+        width: 378
+        height: 286
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85b906f01888cf49a17c71008527e63
+      internalID: 2071761266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modes_sprt_3
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 668
+        width: 380
+        height: 286
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cfd50b8b48db5843a564e52b9a6a921
+      internalID: -497756152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modes_sprt_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 396
+        width: 380
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2231decc6b13a43a311a4f43da1eac
+      internalID: -1697303406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modes_sprt_5
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 396
+        width: 378
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d64074094896b40bb4fd5eb29e5d1f
+      internalID: -1128324180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modes_sprt_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 63
+        width: 380
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f93bc027780a6f49ab21d5366e2f365
+      internalID: -1757210004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modes_sprt_7
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 63
+        width: 378
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f436d49062a5d4b980a37316931a29
+      internalID: 1303945608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +287,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      modes_sprt_0: 633183693
+      modes_sprt_1: 1974840442
+      modes_sprt_2: 2071761266
+      modes_sprt_3: -497756152
+      modes_sprt_4: -1697303406
+      modes_sprt_5: -1128324180
+      modes_sprt_6: -1757210004
+      modes_sprt_7: 1303945608
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

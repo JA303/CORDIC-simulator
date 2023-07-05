@@ -36,6 +36,8 @@ public class CameraController : MonoBehaviour
         tagetZoom = initialZoom;
     }
 
+    public float XPostionWorkSpace {set => xPostionWorkSpace = value; get => xPostionWorkSpace;}
+
     void Update()
     {
         isMouseInRange = _camera.ScreenToViewportPoint(Input.mousePosition).x < xPostionWorkSpace;
